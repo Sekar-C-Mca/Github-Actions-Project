@@ -28,6 +28,7 @@ jobs:
   security-check:
     runs-on: ubuntu-latest
     needs: compile
+    #needs verify if 1 st done compile then the security check
 
     steps:
       - uses: actions/checkout@v4
