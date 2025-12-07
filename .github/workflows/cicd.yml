@@ -63,7 +63,7 @@ jobs:
 
   test: # Stage 3
     runs-on: self-hosted #use the lable name in aws to connect
-
+    needs: security-check
     steps:
       - uses: actions/checkout@v4
 
