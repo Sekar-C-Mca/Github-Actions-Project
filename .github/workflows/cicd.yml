@@ -31,10 +31,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      # -------------------------------
-      # TRIVY INSTALLATION
-      # -------------------------------
       - name: Trivy Installation
         run: |
           sudo apt-get update -y
