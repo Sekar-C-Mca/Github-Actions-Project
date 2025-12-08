@@ -148,4 +148,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: sekar/bankapp:latest
+          tags: sekar1234/bankapp:latest
+
